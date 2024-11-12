@@ -35,11 +35,14 @@ target/generated-sources/
 target/generated-test-sources/
 
 # Ignore specific files
-academics-frontend/.angular/cache/
-academics-frontend/node_modules/
-academics-backend/target/
-academics-backend/.idea/
-academics-backend/.mvn/
-academics-backend/.settings/
-academics-backend/.classpath
-academics-backend/.project
+/academics-frontend/.angular/cache/
+/academics-frontend/node_modules/
+/academics-backend/target/
+/academics-backend/.idea/
+/academics-backend/.mvn/
+/academics-backend/.settings/
+/academics-backend/.classpath
+/academics-backend/.project
+
+# Ignore all node_modules directories
+**/node_modules/
