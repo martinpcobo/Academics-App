@@ -1,0 +1,45 @@
+# Ignore node_modules and Angular cache
+node_modules/
+.angular/
+
+# Ignore build directories
+dist/
+target/
+
+# Ignore IDE specific files
+.idea/
+*.iml
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore compiled Java files
+*.class
+
+# Ignore Maven target directory
+target/
+
+# Ignore IntelliJ IDEA specific files
+.idea/
+*.iml
+
+# Ignore Angular cache files
+.angular/cache/
+
+# Ignore generated sources
+target/generated-sources/
+target/generated-test-sources/
+
+# Ignore specific files
+academics-frontend/.angular/cache/
+academics-frontend/node_modules/
+academics-backend/target/
+academics-backend/.idea/
+academics-backend/.mvn/
+academics-backend/.settings/
+academics-backend/.classpath
+academics-backend/.project
